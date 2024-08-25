@@ -1,12 +1,15 @@
 
-import React from "react";
+import StopWatch from "./component/StopWatch";
 
-function App() {
-  return (
-    <div className="App text-3xl  ">
-     Hello
-    </div>
-  );
-} 
+
+function App(){
+
+
+return (
+  <div>
+     <StopWatch/>
+  </div>
+)
+}
 
 export default App;
